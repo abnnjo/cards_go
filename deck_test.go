@@ -13,7 +13,7 @@ func TestNewDeck(t *testing.T){
 	}
 
 	if d[0] != "Ace of Spades" {
-		t.Errorf("Expected first card of Spade, but got %v", d[0])
+		t.Errorf("Expected first card of Spades, but got %v", d[0])
 	}
 
 	if d[len(d) - 1] != "Four of Clubs" {
